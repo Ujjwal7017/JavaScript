@@ -1,0 +1,43 @@
+// Object is just a group of key , : , value pair .
+// If Value is present in front of Key then it is called as Property.
+// If Function is present in front of Key then it is called as Method.
+let cap = {
+     name : "Steve",
+      lastname : "Rogers",
+        address : {
+    city : "Manhatten",
+    state : "NewYork"
+        }
+   , age : 35,
+    
+   isAvenger : true,
+   movies : ["First Avenger","winter soldier","civil war"],
+   sayHi : function () {
+       console.log("Cap's says Hi");
+   }
+
+};
+//get
+// console.log(cap.name);
+// console.log(cap.movies[1]);
+// console.log(cap.age);
+// cap.sayHi();
+
+//Set/Update
+// console.log("cap :",cap);
+// cap.age = 36;
+// cap.isAveneger = false;
+// cap.friends = ["Tony","Bruce","Peter"];
+// console.log("cap: ",cap);
+
+// //delete
+// delete cap.address
+// console.log("cap : ",cap);
+// for(let key in cap) {
+//    console.log(key, " : ",cap[key]);
+// }
+// let propkey = "age";
+// console.log(cap.age);
+// console.log(cap["age"]);
+// console.log(cap[propkey]);
+console.log(cap.xyz);
