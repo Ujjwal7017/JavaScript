@@ -1,0 +1,20 @@
+// let singleQuotes = 'Single Quotes Ki String';
+let singleQuotes = '    How are You ?     ';
+let doubleQuotes = "Double Quotes Ki String";
+
+// console.log(singleQuotes);
+// console.log(doubleQuotes);
+// let char = singleQuotes.charAt(4);
+// let Ascii = singleQuotes.charCodeAt(4);
+// let substring = singleQuotes.substring(2,8);
+
+// console.log(char);
+// console.log(Ascii);
+// console.log(substring);
+
+// let arrStr = singleQuotes.split("i");
+singleQuotes = singleQuotes.trim();
+let arrStr = singleQuotes.split(" ");
+console.log(arrStr);
+let str = arrStr.join("+");
+console.log(str);
