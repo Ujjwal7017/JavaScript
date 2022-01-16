@@ -1,0 +1,15 @@
+// Non Primitives : Objects,Arrays,Function.
+// Function Defination
+function sayHi(param){
+    // console.log("Hello from sayHi");
+    // console.log("Param Recieved ",param)
+    let rVal = Math.random() > 0.5 ? true : "less than 0.5";
+    return rVal;
+}
+
+//Function Call
+// sayHi();
+// sayHi(10);
+// sayHi("Hello");
+let rVal = sayHi([1,2,3,4,56,7]);
+console.log("rVal",rVal);
