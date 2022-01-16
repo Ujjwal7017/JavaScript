@@ -1,0 +1,36 @@
+//print
+console.log("Hello Learners");
+//declare variables
+let a;
+//undefined
+
+// a = 10;
+// a = 10.21;
+// a = "Hello I am a String";
+// a = 'Hello I am also a String';
+// a = Null ;
+// a = True;
+
+// console.log("Variable Contains : ",a);
+// Variable Types in JavaScript : Primitives Types : Numbers , Strings , Boolean , Null,Symbol .
+
+// JavaScript is syntaxially Similar to Java .
+// let number = 10;
+// for(let i=0;i<=10;i++){
+//     console.log("The Numbers are : ",i)
+// }
+
+let number = 23;
+let flag = true;
+for(let div = 2;div<number;div++)
+{
+    if(number % div == 0){
+    flag = false;
+    break;
+    }
+}
+if (flag == true){
+    console.log(number,"is Prime");
+}else{
+    console.log(number,"is Not Prime");
+}
